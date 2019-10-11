@@ -134,12 +134,12 @@
             <div class="col-10 col-lg-5">
                 <h2>Frequently Asked Question</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui similique in velit iste debitis facilis labore aspernatur libero iusto doloremque?</p>
-                <h4>Question 01?</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatibus inventore perspiciatis molestiae, quidem atque.</p>
-                <h4>How About Question 02?</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit exercitationem reprehenderit, deserunt praesentium commodi natus!</p>
-                <h4>But What About Question 03?</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia minus sint ullam facere velit!</p>
+                <h4><i class="fas fa-plus fa-sm"></i> Question 01?</h4>
+                <p class="faq expand">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatibus inventore perspiciatis molestiae, quidem atque.</p>
+                <h4><i class="fas fa-plus fa-sm"></i> How About Question 02?</h4>
+                <p class="faq expand">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit exercitationem reprehenderit, deserunt praesentium commodi natus!</p>
+                <h4><i class="fas fa-plus fa-sm"></i> But What About Question 03?</h4>
+                <p class="faq expand">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia minus sint ullam facere velit!</p>
             </div>
         </div>
         </div>
@@ -234,12 +234,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
-            $(function (){
-              $(document).scroll(function(){
-                var $nav = $("#mainnavbar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-              });
-            });
-          </script>
+    const plus = document.querySelectorAll(".fa-plus")
+    const para = document.querySelectorAll(".faq")
+    
+    for(let i =0;i<plus.length;i++){
+    plus[i].addEventListener("click",function(){
+        console.log("plus click")
+        para[i].classList.toggle("expand")
+    })}
+    </script>
 </body>
 </html>
