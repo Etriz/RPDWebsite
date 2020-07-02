@@ -1,3 +1,7 @@
+$primary-color: #4dbce9;
+// $primary-dark: darken($primary-color, 25);
+$primary-darker: #327c98;
+
 * {
   box-sizing: border-box;
 }
@@ -25,7 +29,7 @@ nav {
   position: sticky;
   display: flex;
   border-bottom: 1px solid black;
-  background: #4dbce9;
+  background: $primary-color;
 }
 .projects {
   display: flex;
@@ -36,14 +40,15 @@ nav {
     border-radius: 1rem;
     border: 1px solid #00000080;
     box-shadow: 0 1rem 2rem #00000080;
-    // background: #555;
+    background: #333;
     width: auto;
     // height: 20rem;
     margin: 2rem;
+    margin-bottom: 0;
     padding: 0 2rem 2rem;
     button {
       outline: none;
-      background: #4dbce9;
+      background: $primary-color;
       color: whitesmoke;
       border: 1px solid whitesmoke;
       border-radius: 0.5rem;
@@ -52,15 +57,43 @@ nav {
       &:hover {
         cursor: pointer;
         background: whitesmoke;
-        color: #4dbce9;
-        border: 1px solid #4dbce9;
+        color: $primary-color;
+        border-color: $primary-color;
       }
     }
   }
 }
 footer {
   color: white;
-  background: #327c98;
-  display: flex;
-  padding: 0 2rem;
+  background: $primary-darker;
+  .container {
+    display: flex;
+    flex-wrap: none;
+    padding: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 680px) {
+      justify-content: space-evenly;
+    }
+    div {
+      padding: 0 2rem;
+      &:first-of-type {
+        border-right: 1px solid white;
+        @media screen and (min-width: 680px) {
+          border: none;
+        }
+      }
+      svg {
+        margin-right: 0.3rem;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
