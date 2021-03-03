@@ -9,7 +9,9 @@ const Projects = () => {
   return (
     <StyledContainer>
       <CardColumns>
-        <PreviewCard project={Data} />
+        {Data.map(item=>{
+        return <PreviewCard key={item.id} project={item} />}
+        )}
       </CardColumns>
     </StyledContainer>
   );

@@ -1,7 +1,42 @@
-{
+[
+  {
   "id": "01",
   "name": "TravelX Site",
-  "description": "A responsive travel mockup website. It shows examples of sections such as more information, about, and contact.",
-  "liveLink": "http://ryanpdesigns.com/travel-mockup.html",
-  "githubLink": ""
+  "description": "A responsive travel website. It shows examples of sections such as more information, about, and contact.",
+  "image":"",
+  "liveURL": "http://ryanpdesigns.com/travel-mockup.html",
+  "githubURL": ""
+},
+{
+  "id": "02",
+  "name": "NewApp Site",
+  "description": "A new app! With cool features! A static landing page made with JS and Bootstrap.",
+  "image":"",
+  "liveURL": "http://ryanpdesigns.com/app-mockup.html",
+  "githubURL": "github.com/etriz"
+},
+{
+  "id": "03",
+  "name": "03 Site",
+  "description": "A new app! With cool features! A static landing page made with JS and Bootstrap.",
+  "image":"",
+  "liveURL": "http://ryanpdesigns.com/app-mockup.html",
+  "githubURL": ""
+},
+{
+  "id": "04",
+  "name": "04 Site",
+  "description": "A new app! With cool features! A static landing page made with JS and Bootstrap.",
+  "image":"",
+  "liveURL": "http://ryanpdesigns.com/app-mockup.html",
+  "githubURL": ""
+},
+{
+  "id": "05",
+  "name": "05 Site",
+  "description": "A new app! With cool features! A static landing page made with JS and Bootstrap.",
+  "image":"",
+  "liveURL": "http://ryanpdesigns.com/app-mockup.html",
+  "githubURL": ""
 }
+]
