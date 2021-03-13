@@ -3,14 +3,15 @@ import styled from 'styled-components';
 import StyledContainer from '../styling/StyledContainer';
 import PreviewCard from './PreviewCard';
 
-import Data from '../ProjectData.json';
+import { data } from '../ProjectData';
 
 const Projects = () => {
   return (
     <div style={{ background: '#f7f7f7' }}>
       <StyledContainer className="px-5">
         <StyledGrid>
-          {Data.map((item) => {
+          {data.map((item) => {
+
             return <PreviewCard key={item.id} project={item} />;
           })}
         </StyledGrid>
