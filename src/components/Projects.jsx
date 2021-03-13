@@ -11,6 +11,7 @@ const Projects = () => {
       <StyledContainer className="px-5">
         <StyledGrid>
           {data.map((item) => {
+
             return <PreviewCard key={item.id} project={item} />;
           })}
         </StyledGrid>
