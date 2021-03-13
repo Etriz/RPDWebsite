@@ -4,7 +4,7 @@ import Image from '../images/hipster-avatar.png';
 
 const About = () => {
   return (
-    <StyledContainer flexDirection="row" style={{ maxWidth: '45rem' }} className="p-3 mx-auto row">
+    <StyledContainer flexdirection="row" style={{ maxWidth: '45rem' }} className="p-3 mx-auto row">
       <img
         alt="avatar"
         src={Image}
