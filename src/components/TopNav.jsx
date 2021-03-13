@@ -9,8 +9,9 @@ const TopNav = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#home">HOME</Nav.Link>
-            <Nav.Link href="#link">LINK</Nav.Link>
+            <Nav.Link href="https://docs.google.com/document/d/185IZD6de6XH1KQeddU0L_3tsH9-e_jPe2sl-KfVG_3g/edit?usp=sharing">
+              RESUME
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

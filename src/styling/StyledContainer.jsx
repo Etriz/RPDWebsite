@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const StyledContainer = styled(Container)`
   display: flex;
   flex-direction: ${(props) => props.flexDirection || 'column'};
+  padding: ${(props) => props.padding || 0};
   align-items: center;
   justify-content: center;
 `;
