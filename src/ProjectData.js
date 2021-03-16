@@ -8,7 +8,7 @@ let data = [
     description:
       'A responsive travel website. It shows examples of sections such as more information, about, and contact.',
     image: travel,
-    liveURL: 'http://ryanpdesigns.com/travel-mockup.html',
+    liveURL: 'https://rpd-travelx.netlify.app',
     githubURL: '',
   },
   {
@@ -16,7 +16,7 @@ let data = [
     name: 'NewApp Site',
     description: 'A new app! With cool features! A static landing page made with JS and Bootstrap.',
     image: app,
-    liveURL: 'http://ryanpdesigns.com/app-mockup.html',
+    liveURL: 'https://rpd-newappsite.netlify.app/',
     githubURL: '',
   },
   {
