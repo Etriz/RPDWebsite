@@ -4,7 +4,7 @@
     "name": "TravelX Site",
     "description": "A responsive travel website. It shows examples of sections such as more information, about, and contact.",
     "image": "http://ryanpdesigns.com/imgs/travel-site-icon.jpg",
-    "liveURL": "http://ryanpdesigns.com/travel-mockup.html",
+    "liveURL": "https://rpd-travelx.netlify.app/",
     "githubURL": ""
   },
   {
@@ -12,7 +12,7 @@
     "name": "NewApp Site",
     "description": "A new app! With cool features! A static landing page made with JS and Bootstrap.",
     "image": "http://ryanpdesigns.com/imgs/app-site-icon.jpg",
-    "liveURL": "http://ryanpdesigns.com/app-mockup.html",
+    "liveURL": "https://rpd-newappsite.netlify.app/",
     "githubURL": ""
   },
   {
