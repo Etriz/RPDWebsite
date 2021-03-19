@@ -1,7 +1,17 @@
 import travel from './images/travel-site-icon.jpg';
 import app from './images/app-site-icon.jpg';
 import tracker from './images/tracker-icon.jpg';
+import furniture from './images/hideaway-site-icon.jpg';
 let data = [
+  {
+    id: '04',
+    name: 'HomeHideaway E-Commerce Site',
+    description:
+      'An e-commerce site built using React and Bootstrap. Fully responsive, with the ability to view products by category and add them to a cart.',
+    image: furniture,
+    liveURL: 'https://rpd-shoppingsite.netlify.app/',
+    githubURL: 'https://github.com/Etriz/ShoppingStorePage',
+  },
   {
     id: '01',
     name: 'TravelX Site',
