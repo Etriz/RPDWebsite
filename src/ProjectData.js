@@ -2,6 +2,7 @@ import travel from './images/travel-site-icon.jpg';
 import app from './images/app-site-icon.jpg';
 import tracker from './images/tracker-icon.jpg';
 import furniture from './images/hideaway-site-icon.jpg';
+import pokedex from './images/pokedex-icon.jpg';
 let data = [
   {
     id: '04',
@@ -11,6 +12,15 @@ let data = [
     image: furniture,
     liveURL: 'https://rpd-shoppingsite.netlify.app/',
     githubURL: 'https://github.com/Etriz/ShoppingStorePage',
+  },
+  {
+    id: '05',
+    name: 'NextPokedex',
+    description:
+      'A NextJS project using the PokeAPI. Find Pokemon by type and view individual pages.',
+    image: pokedex,
+    liveURL: 'https://rpd-nextpokedex.netlify.app/',
+    githubURL: 'https://github.com/Etriz/NextPokedex',
   },
   {
     id: '01',
