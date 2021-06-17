@@ -23,6 +23,15 @@ let data = [
     githubURL: 'https://github.com/Etriz/NextPokedex',
   },
   {
+    id: '03',
+    name: 'Issue Tracker',
+    description:
+      'A tracker that creates a new item and then stores it in a database. Built using React and MongoDB.',
+    image: tracker,
+    liveURL: 'https://bugtrackerwithreact.netlify.app/',
+    githubURL: 'https://github.com/Etriz/BugTrackerReact',
+  },
+  {
     id: '01',
     name: 'TravelX Site',
     description:
@@ -38,14 +47,6 @@ let data = [
     image: app,
     liveURL: 'https://rpd-newappsite.netlify.app/',
     githubURL: '',
-  },
-  {
-    id: '03',
-    name: 'Issue Tracker',
-    description: 'A tracker that creates a new item and then stores it using local storage.',
-    image: tracker,
-    liveURL: 'https://bugtrackerwithreact.netlify.app/',
-    githubURL: 'https://github.com/Etriz/BugTrackerReact',
   },
 ];
 
