@@ -3,6 +3,7 @@ import app from './images/app-site-icon.jpg';
 import tracker from './images/tracker-icon.jpg';
 import furniture from './images/hideaway-site-icon.jpg';
 import pokedex from './images/pokedex-icon.jpg';
+import weather from './images/weather-icon.jpg';
 let data = [
   {
     id: '04',
@@ -30,6 +31,15 @@ let data = [
     image: tracker,
     liveURL: 'https://bugtrackerwithreact.netlify.app/',
     githubURL: 'https://github.com/Etriz/BugTrackerReact',
+  },
+  {
+    id: '06',
+    name: 'Weather App',
+    description:
+      'A weather app that checks the weather in a city and displays temperature and a weather description',
+    image: weather,
+    liveURL: 'https://rpd-weatherapp.netlify.app',
+    githubURL: 'https://github.com/Etriz/WeatherApp',
   },
   {
     id: '01',
