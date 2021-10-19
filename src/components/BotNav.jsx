@@ -18,7 +18,9 @@ const BotNav = () => {
             Find me on the internet at
           </span>
           <span className="mx-auto">
-            <StyledLink href="http://www.github.com/etriz">{gitHubIcon} GitHub</StyledLink>
+            <StyledLink href="http://www.github.com/etriz">
+              {gitHubIcon} GitHub
+            </StyledLink>
             <StyledLink href="https://www.linkedin.com/in/ryanpdesigns/">
               {linkedInIcon} LinkedIn
             </StyledLink>
