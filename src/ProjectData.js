@@ -53,7 +53,8 @@ let data = [
   {
     id: '02',
     name: 'NewApp Site',
-    description: 'A new app! With cool features! A static landing page made with JS and Bootstrap.',
+    description:
+      'A new app! With cool features! A static landing page made with JS and Bootstrap.',
     image: app,
     liveURL: 'https://rpd-newappsite.netlify.app/',
     githubURL: '',

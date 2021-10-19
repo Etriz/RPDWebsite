@@ -8,7 +8,10 @@ const PreviewCard = ({ project }) => {
       <Card.Img
         variant="top"
         src={project.image}
-        style={{ borderBottom: '1px solid lightgray', borderRadius: '.5rem .5rem 0 0' }}
+        style={{
+          borderBottom: '1px solid lightgray',
+          borderRadius: '.5rem .5rem 0 0',
+        }}
       />
       <Card.Body>
         <Card.Title>{project.name}</Card.Title>
